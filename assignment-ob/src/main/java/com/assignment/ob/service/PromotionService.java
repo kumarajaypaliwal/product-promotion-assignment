@@ -59,7 +59,6 @@ public class PromotionService {
         } else if (countD > 1) {
             promotions.add(new Promotion("Y", countD));
         }
-
         return promotions;
     }
 
